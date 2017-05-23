@@ -1,0 +1,20 @@
+1. git clean -f: 
+    xoá các file chưa git add
+    
+2. git rebase -i HEAD~n : 
+    n là số commit muốn gộp
+    gộp n commit lại thành 1 hay 1 số commit. (p -> f)
+    
+3. git reset --soft HEAD~n : 
+    reset trạng thái commit về n commit phía trước
+    vẫn giữ nguyên các file code.
+    
+4. git reset --hard HEAD~n : 
+    reset trạng thái cả commit và file code( chỉ file 
+đã được commit) về trạng thái n commit trước, các file chưa add vẫn giữ.
+
+5. git checkout -- <tenfile> : 
+    đưa file chưa add về trạng thái commit gần nhất.
+    
+6. git commit --amend : 
+    đổi tên commit gần nhất.
