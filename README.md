@@ -23,9 +23,9 @@
 5. git checkout -- <tenfile> : 
     đưa file chưa add về trạng thái commit gần nhất.
 
-6. git reset HEAD <tenfile>:
-    đưa file đã commit trở lại trạng thái chưa commit ( đã add). 
-    
+6. git reset HEAD~n:
+    đưa về trạng thái trước n commit, chưa add (
+    --soft là đã add).
 6. git commit --amend : 
     đổi tên commit gần nhất.
     
